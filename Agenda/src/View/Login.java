@@ -92,7 +92,7 @@ public class Login extends javax.swing.JFrame {
         String log = login.getText();
         String sen = senha.getText();
         
-        if (log.equals("fabio") || sen.equals("etec")){
+        if (log.equals("fabio") && sen.equals("etec")){
         
         JOptionPane.showMessageDialog(null, "Bem-vindo ao sistema");
       
